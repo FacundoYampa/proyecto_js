@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="estilos-proyecto-final.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+
+    <title>Proyecto.</title>
+</head>
+<body>
+<nav>
+
+</nav>
+<!-- ------------------- LOG IN -------------->
+
+<div class="container" id="LogIn">
+    <div>
+        <label for="" class="labelLogIn">Log In</label>
+        <img class="imgLogIn" src="https://static.vecteezy.com/system/resources/previews/002/387/693/non_2x/user-profile-icon-free-vector.jpg" alt="">
+    </div>
+    <div>
+        <input class="input" type="text" id="usuario" placeholder="Usuario">
+        <input class="input" type="password" id="contraseña" placeholder="Contraseña">
+    </div>
+   
+    <input class="button" type="submit" value="Iniciar Sesion" id="btnIniciarSesion">
+
+    <input class="button" type="submit" value="Crear Nuevo Usuario" id="btnAbrirCrearCuenta">
+
+</div>
+
+<!-- ------------------- CREAR CUENTA -------------->
+
+<div class="container" id="crearCuenta">
+    <div>
+    <label for="" class="labelLogIn">Crea un Usuario.</label>
+    <img class="imgLogIn" src="https://static.vecteezy.com/system/resources/previews/002/387/693/non_2x/user-profile-icon-free-vector.jpg" alt="">
+    </div>
+    <form action="" id="formCrearUsuario">
+        <!-- <input class="input" type="text" id="nuevoUsuario" placeholder="Nuevo Usuario">
+        <input class="input" type="password" id="nuevaContraseña" placeholder="Nueva Contraseña">
+         -->
+        <input class="input" type="text" id="nombreUsuario" placeholder="Nombre">
+        <input class="input" type="text" id="apellidoUsuario" placeholder="Apellido"> 
+        <input class="button" type="submit" value="Crear" id="btnCrearCuenta">
+        
+    </form>
+    <input class="button" type="submit" id="btnVolver" value="Volver">
+</div>
+
+<!-- ------------------- Mostrar Usuario ----------------->
+<div class="container" id="Perfil">
+    <div>
+        <div class="cardInfo">
+            <div class="card-img"> <img class="imgPerfil" id="imgPrueba" src="https://static.vecteezy.com/system/resources/previews/002/387/693/non_2x/user-profile-icon-free-vector.jpg" alt="Foto de perfil">
+            </div>
+              <div class="card-info">
+                <p class="text-body" id="nombrePerfil">Nombre</p>
+                <p class="text-title" id="usuarioPerfil">Usuario</p>
+              </div>
+            </div>
+        <div id="info">
+            <div id="contacto">
+                <div id="telefono" class="contactoLabel">Telefono</div>
+                <div id="mail" class="contactoLabel">Mail</div>
+                <div id="ciudad" class="contactoLabel">Ciudad</div>
+            </div>
+            <div id="work">
+                <div class="contactoLabel">Academia</div>
+                <div class="contactoLabel">Empleo</div>                
+            </div>
+        </div>  
+    </div>
+    <input class="button" type="submit" id="btnVolver" value="Volver">
+</div>
+
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- <link rel="stylesheet" href="https://@sweetalert2/theme-material-ui/material-ui.css">
+    <script src="https://sweetalert2/dist/sweetalert2.min.js"></script> -->
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>    
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+   
+    <script src="index-proyecto-final.js"></script>
+    <!-- <script src="./clase-usuario.js"></script> -->
+
+</body>
+</html>
